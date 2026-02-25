@@ -1,0 +1,3 @@
+Aplikasi Usaha Rental adalah sistem berbasis web atau mobile yang dirancang untuk membantu pemilik usaha dalam mengelola proses penyewaan barang atau jasa secara digital, mulai dari pencatatan data barang, transaksi sewa, pembayaran, hingga laporan keuangan.
+
+Aplikasi ini bertujuan untuk meningkatkan efisiensi operasional, mengurangi kesalahan pencatatan manual, serta mempermudah pengelolaan bisnis rental.
