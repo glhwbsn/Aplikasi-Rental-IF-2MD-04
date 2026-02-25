@@ -1,1 +1,1 @@
-Usaha rental kamera dan alat camping di dekat kampus masih menggunakan catatan manual. Pelanggan sering komplain karena barang yang diinginkan ternyata sudah dirental orang lain, dan perhitungan biaya sering salah.dit 
+Usaha rental kamera dan alat camping di dekat kampus masih menggunakan catatan manual. Pelanggan sering komplain karena barang yang diinginkan ternyata sudah dirental orang lain, dan perhitungan biaya sering salah.
