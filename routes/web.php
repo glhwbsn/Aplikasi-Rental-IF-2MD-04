@@ -6,8 +6,10 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\login;
 use App\Http\Controllers\GalehController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProductController; 
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ListProdukController;
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -20,7 +22,7 @@ Route::get('/user/{id}', function ($id) {
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::prefix('admin')->group(function () {
-    Route::get('/dashboard', function (){
+    Route::get('/dashboard', function () {
         return 'Admin Dashboard';
     });
     Route::get('/users', function () {
@@ -38,3 +40,6 @@ Route::get('/galeh', [GalehController::class, 'tampilkan']);
 Route::get('/register', [HomeController::class, 'register']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/product', [ProductController::class, 'index']);
+Route::get('/listproduk', [ListProdukController::class, 'show']);
+Route::post('/listproduk', [ListProdukController::class, 'simpan'])->name('produk.simpan');
+Route::delete('/listproduk/{id}', [ListProdukController::class, 'delete'])->name('produk.delete');
